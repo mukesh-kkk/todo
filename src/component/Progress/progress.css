@@ -1,0 +1,77 @@
+.progress-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 10%;
+}
+
+.tick-border {
+    display: flex;
+    align-items: center;
+}
+
+.progress-wrapper .tick-border img {
+
+    background-color: blue;
+    padding: 1em;
+    border-radius: 50%;
+    cursor:pointer;
+    width: 14px;
+
+}
+
+.tick-icon {
+    position: relative;
+}
+
+.tick-text {
+    position: absolute;
+    left: 50%;
+    font-weight: bold;
+    text-align: center;
+    transform: translateX(-50%);
+    width:300%;
+
+
+}
+
+
+.stick {
+    background-color: blue;
+    height: .6em;
+    width: 100px;
+    position: relative;
+
+
+}
+
+.before {
+    background-color: blue;
+    height: .6em;
+    width: .5em;
+    position: absolute;
+    left: -.5em;
+
+}
+
+.after {
+
+    background-color: blue;
+    height: .6em;
+    width: .5em;
+    position: absolute;
+    right: -.5em;
+}
+
+@media screen and (max-width:670px) {
+    .progress-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 10%;
+    }
+}

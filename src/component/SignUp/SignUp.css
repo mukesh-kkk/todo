@@ -1,0 +1,23 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height:300px;
+}
+.sign-up .form input{
+    width:20%;
+    height: 2em;
+    border-style: none;
+    border-radius: 3px;
+    border: 2px solid #f98155;
+    
+}
+.sign-up .form p{
+    font-size:1.5;
+    font-weight: bold;
+    text-align: left;width:100%;
+}
+.sign-up input::placeholder{
+    padding-left:.5em;
+}

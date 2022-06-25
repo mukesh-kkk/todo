@@ -1,0 +1,12 @@
+.btn-primary{
+    background-color:#FF6C37;
+    color:white;
+    font-family:'Roboto';
+    padding:.5em 1.5em;
+    font-size: 300;
+
+    font-weight: bold;
+    border-style: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

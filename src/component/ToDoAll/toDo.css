@@ -1,0 +1,21 @@
+.new-task{
+
+    display: flex;
+
+}
+.new-task input{
+    width:20%;
+    height: 2em;
+    border-style: none;
+    border-radius: 3px;
+    border: 2px solid #f98155;
+    margin-right: 5px;
+}
+.new-task input:focus{
+    border-color: #FF6C37;
+    outline-style: none;
+}
+.task{
+    display: flex;
+    height: 2em;
+}

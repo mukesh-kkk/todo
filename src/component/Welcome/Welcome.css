@@ -1,0 +1,45 @@
+.nav-wrapper{
+    width:90%;
+    margin-left: 5%;
+}
+.nav{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color:#FF6C37;
+    font-family: 
+     cursive;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;     border-radius: 14px;
+padding:.2em .4em;
+}
+.btn-grp{
+    display: flex;
+    flex-basis: 14%;
+    justify-content: space-between;
+}
+.welcome-msg{
+    margin-top: 2%;
+
+}
+.welcome-msg p span{
+    color:#FF6C37;
+    font-size: 2.5rem;
+    
+
+}
+.welcome-msg p{
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.hi-msg{
+    text-align: center;
+    margin-top:10%;
+    font-size: 2.3rem;
+    
+}
