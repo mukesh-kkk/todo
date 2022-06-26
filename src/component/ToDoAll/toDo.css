@@ -1,10 +1,12 @@
 .new-task{
 
     display: flex;
+    justify-content: center;
+    margin-top: 4%;;
 
 }
 .new-task input{
-    width:20%;
+    width:25%;
     height: 2em;
     border-style: none;
     border-radius: 3px;
@@ -15,7 +17,63 @@
     border-color: #FF6C37;
     outline-style: none;
 }
+
+.your-task{
+    font-size: 1.5rem;
+    font-weight: bold;
+    width:calc(22% + 13px) ;
+    margin-bottom: 0;
+    
+}
+.your-task-div{
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+    margin:auto;
+    margin-top: 4%;
+    
+}
+
+.tasks{
+   
+
+    display: flex;
+    flex-direction: column;
+    width:calc(22% + 13px) ;
+    justify-content: center;
+    margin:auto;
+    margin-top: 1%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding:1%;
+    max-height: 180px;
+    overflow-y: scroll;
+
+ 
+}
+.dot{
+    width: 7px!important;
+    height: 7px!important;
+    margin-right: 5px;
+    
+    border-radius: 50%;;
+    background-color: #f98155;
+
+}
 .task{
     display: flex;
+    flex-direction:row;
+
     height: 2em;
+    justify-content: space-between;
+    align-items: center;
+ 
+    
 }
+.task-para{
+    /* width:calc(20% + 13
+    px) ; */
+}
+/* .inp{
+    width:20.5%;
+} */

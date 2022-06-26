@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    min-height:200px;
+    min-height:190px;
 }
 .form input{
     width:20%;
@@ -11,10 +11,17 @@
     border-style: none;
     border-radius: 3px;
     border: 2px solid #f98155;
+    margin-bottom: 1em;
     
 }
 .form p{
     font-size:1.5;
     font-weight: bold;
-    text-align: left;width:100%;
+    text-align: center;width:100%;
+    width:20%;
+    margin:auto;
+    margin-bottom: 3em;
+}
+.pelc{
+    text-align: center;
 }
