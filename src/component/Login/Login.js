@@ -51,6 +51,7 @@ export default function Login({setLogged}) {
            
            <Btn text={"Submit"} type="submit" handle={handleLogin} />
           {/* okg  f3 in satge-2*/}
+          <div></div>
             </div>
         </form>
     </div>
