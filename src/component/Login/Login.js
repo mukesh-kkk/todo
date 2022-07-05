@@ -49,7 +49,7 @@ export default function Login({setLogged}) {
            <div style={{height:"3em",width:"100%"}}></div>
            
            <Btn text={"Submit"} type="submit" handle={handleLogin} />
-          
+          {/* okg  f3 in satge-2*/}
             </div>
         </form>
     </div>
