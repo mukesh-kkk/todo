@@ -40,6 +40,7 @@ export default function Login({setLogged}) {
   }
   return (
     <div>
+      console.log("HOW ARE YOU");
       
         <form action="" method="post" onSubmit={loginHandle}>
             <div className='form'>
@@ -49,7 +50,7 @@ export default function Login({setLogged}) {
            <div style={{height:"3em",width:"100%"}}></div>
            
            <Btn text={"Submit"} type="submit" handle={handleLogin} />
-          
+          console.log("F@2git")
             </div>
         </form>
     </div>
