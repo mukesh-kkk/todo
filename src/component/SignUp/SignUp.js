@@ -6,10 +6,9 @@ import { Link ,useHistory} from "react-router-dom";
 export default function SignUp({setLogged,setUser}) {
   const naji=useHistory();
   async function handleSignup(e) {
-    e.preventDefault();
+           e.preventDefault();
 setUser(e.target.name.value);
-      axios
-      .post(
+      axios.post(
         "https://api-nodejs-todolist.herokuapp.com/user/register",
         {
           name: e.target.name.value,
@@ -25,9 +24,10 @@ setUser(e.target.name.value);
         }
       )
       .then((res) => {
-        console.log(res);
         
+        console.log(res);
         localStorage.setItem("worko_token",res.data.token);
+
          setLogged(true);
          naji.push("/todo");
       })

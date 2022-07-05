@@ -13,9 +13,9 @@ export default function ToDo({user}) {
   //hooks sections-_--->
 
   let [d, setD] = useState([]);
+ 
   
-  
-
+setD(34);
   ///functions --->
 
 

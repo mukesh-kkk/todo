@@ -28,13 +28,15 @@ export default function Login({setLogged}) {
       .then((res) => {
         window.localStorage.setItem("worko_token",res.data.token);
         setLogged(true);
+        navi.push("/todo");
+
       })
       .catch((err) => console.log(err));
 
       setSwt(!swt);
   }
   const handleLogin=()=>{
-navi.push("/todo");
+
   }
   return (
     <div>

@@ -8,21 +8,13 @@ export default function Nav({isLogged,setLogged}) {
 
 const handleLogOut=(e)=>{
  
-  window.localStorage.removeItem("worko_token");
-  console.log("logged out")
   setLogged(false);
+  console.log("logged out")
+  
 
 }
 
-useEffect(()=>{
-  function x(){
-    if(window.localStorage.getItem("worko_token")===null){
-      setLogged(false)
-    }else{
-      setLogged(true)
-    }};x();
-    
-})
+useEffect(()=>{});
 
   return (
     <>
@@ -38,11 +30,12 @@ useEffect(()=>{
             </Link>
             <Link to="/todo">
             <Btn text={"Tasks"} />
-          </Link></>):(<><Link to="/login">
+          </Link></>):
+          (<><Link to="/login">
               <Btn text={"Login"} type={"submit"} disp={"block"} />
             </Link>
             <Link to="/register">
-              <Btn text={"SingUp"} />
+              <Btn text={"SignUp"} />
             </Link></>
             )
             
