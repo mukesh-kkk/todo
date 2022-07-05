@@ -40,6 +40,7 @@ export default function Login({setLogged}) {
   }
   return (
     <div>
+      console.log("HOW ARE YOU");
       
         <form action="" method="post" onSubmit={loginHandle}>
             <div className='form'>
