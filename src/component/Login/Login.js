@@ -50,7 +50,7 @@ export default function Login({setLogged}) {
            <div style={{height:"3em",width:"100%"}}></div>
            
            <Btn text={"Submit"} type="submit" handle={handleLogin} />
-          console.log("F@2git")
+          
             </div>
         </form>
     </div>
